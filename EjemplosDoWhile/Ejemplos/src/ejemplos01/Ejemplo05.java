@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Encuentra la potencia de un numero realizando x multiplicaciones sucesivas 
+ * 4*1 4*4 16*4 64
  */
 package ejemplos01;
 
