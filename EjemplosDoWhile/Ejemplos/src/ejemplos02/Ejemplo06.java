@@ -28,10 +28,16 @@ public class Ejemplo06 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+        
         int tabla;
         int operacion;
         int contador = 1;
         int limite;
+        System.out.println("Ingrese el la tabla");
+        tabla = entrada.nextInt();
+        System.out.println("Ingrese el limite de la tabla");
+        limite = entrada.nextInt();
+
         
         do {
             operacion = tabla * contador;
