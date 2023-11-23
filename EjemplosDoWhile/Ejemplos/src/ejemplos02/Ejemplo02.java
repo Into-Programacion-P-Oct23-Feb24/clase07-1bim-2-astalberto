@@ -32,11 +32,12 @@ public class Ejemplo02 {
             entrada.nextLine(); // limpieza de buffer
 
             System.out.println("Ingrese (s) si desea salir del ciclo ");
-            salida = entrada.nextLine();
+            salida = entrada.nextLine().toLowerCase();
 
-            
-            
-
+            if (salida.equals("s") || salida.equals("si") || 
+                    salida.equals("yes") || salida.equals("y")) { // f
+                bandera = false;
+            }
         } while (bandera); // (bandera==true)
 
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
